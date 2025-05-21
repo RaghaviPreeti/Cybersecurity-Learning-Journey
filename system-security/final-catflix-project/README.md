@@ -3,7 +3,11 @@
 ## Objective
 To design, configure, and secure a simulated enterprise network for a fictional client, “Catflix,” as part of a capstone project in System Security. The project includes setting up infrastructure, applying system hardening, managing domains, and implementing technical controls aligned with CIS Critical Security Controls - all within a closed virtual lab environment.
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ## Technologies Used
 - pfSense Firewall (Simulated)
@@ -14,7 +18,11 @@ To design, configure, and secure a simulated enterprise network for a fictional 
 - VMware vSphere
 - CIS Critical Security Controls (V8)
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ## Simulated Network Architecture
 
@@ -41,9 +49,13 @@ To design, configure, and secure a simulated enterprise network for a fictional 
 - **UbuntuClient**  
   - Connected to ServerNet for DNS and functionality testing  
 
-> _All network components and IPs were configured and tested inside a closed virtual lab environment._
+⚠️ _All network components and IPs were configured and tested inside a closed virtual lab environment._
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ## Key Security Configurations
 
@@ -57,15 +69,11 @@ To design, configure, and secure a simulated enterprise network for a fictional 
 
 📸 See `firewall-screenshots/` for pfSense rule documentation
 
----
-
 ### Malware Removal
 - Used Wireshark on Sin10Client to identify C2 IP traffic
 - Removed malware, verified no persistence after reboot
 - Created a pfSense firewall rule to permanently block malicious IP
 - Joined Sin10Client to the domain after cleanup
-
----
 
 ### Web Server Setup & Hardening
 - Installed MediaWiki with:
@@ -76,7 +84,11 @@ To design, configure, and secure a simulated enterprise network for a fictional 
   - Configured strict file/folder permissions
   - Applied Apache access controls and firewall restrictions
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ## CIS Critical Security Controls Implemented
 
@@ -94,7 +106,11 @@ To design, configure, and secure a simulated enterprise network for a fictional 
 
 📸 See `controls-screenshots/` for configuration
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ## Validation & Testing
 - Confirmed NAT, DNS, and DHCP via command-line tools
@@ -102,17 +118,31 @@ To design, configure, and secure a simulated enterprise network for a fictional 
 - Successfully joined Sin10Client to domain and applied GPOs
 - MediaWiki homepage accessible externally, all other services internally restricted
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ## Appendices
 - **Appendix A:** Network Topology Diagram  
 - **Appendix B:** pfSense Firewall Rules (All Interfaces)  
 - **Appendix C:** CIS Controls Implementation Proof
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ## Outcome
 Successfully deployed a multi-layered enterprise network simulation and demonstrated the ability to secure it using industry best practices. Covered everything from domain management and malware response to firewall rule creation and CIS-aligned control implementation.
 
-> ⚠️ _Note: All data, IP addresses, domain names, and configurations shown in this project are part of a private, simulated lab environment and do not reflect any real-world infrastructure._
+⚠️ _Note: All data, IP addresses, domain names, and configurations shown in this project are part of a private, simulated lab environment and do not reflect any real-world infrastructure._
+
+<div align="center">
+
+--- 🔹🔹🔹 End of Section 🔹🔹🔹 ---
+
+</div>
 
