@@ -20,12 +20,6 @@ Welcome to my learning journey! This repository serves as a record of my progres
 - [Active Directory and Implementing Controls (Referring to CIS Controls)](./system-security/final-catflix-project)
 - [Final Project](./system-security/final-catflix-project)
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ### 2. [Digital Forensics](./digital-forensics)
 
 **Topics covered:**
@@ -34,12 +28,6 @@ Welcome to my learning journey! This repository serves as a record of my progres
 - Tools: Spirion, Guymager  
 
 Includes case studies, analysis, and forensic methodologies.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ### 3. [TryHackMe](./tryhackme)
 
