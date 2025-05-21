@@ -2,30 +2,66 @@
 
 Welcome to my learning journey! This repository serves as a record of my progress, covering various topics, hands-on exercises, and insights gained along the way.
 
-## Paths
+<div align="center">
 
-### 1. System Security
-- Topics covered:
-  - General Security Practices
-  - Windows and Linux Security
-  - Hosting a Web Server (MediaWiki) and Hardening It
-  - Firewall Rules - pfSense
-  - Active Directory and Implementing Controls (Referring to CIS Controls)
-  - Final Project
+----- [ Section Break ] -----
 
-### 2. Digital Forensics
-- Topics covered:
-  - Acquisition Methods
-  - Image Formats
-  - Tools: Spirion, Guymager
-- Includes case studies, analysis, and forensic methodologies.
+</div>
 
-### 3. TryHackMe
-- Focused on structured learning through TryHackMe labs.
+## 📚 Paths
 
-### How I Document My Learning
+### 1. [System Security](./system-security)
+
+**Topics covered:**
+- General Security Practices
+- Windows and Linux Security
+- Hosting a Web Server (MediaWiki) and Hardening It
+- Firewall Rules – pfSense
+- [Active Directory and Implementing Controls (Referring to CIS Controls)](./system-security/final-catflix-project)
+- [Final Project](./system-security/final-catflix-project)
+
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
+
+### 2. [Digital Forensics](./digital-forensics)
+
+**Topics covered:**
+- Acquisition Methods  
+- Image Formats  
+- Tools: Spirion, Guymager  
+
+Includes case studies, analysis, and forensic methodologies.
+
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
+
+### 3. [TryHackMe](./tryhackme)
+
+Focused on structured learning through TryHackMe labs and walkthroughs.
+
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
+
+## How I Document My Learning
+
 - **Notes:** Summarizing key takeaways, insights, and concepts learned.
 - **Hands-On Work:** Documenting practical applications, configurations, and tools used.
-- **Challenegs & Solutions:** Recording issues faced and how I resolved them.
+- **Challenges & Solutions:** Recording issues faced and how I resolved them.
 
-This repository serves as a space to consolidate my knowledge and practical experience as I grow in the field of cybersecurity. 
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
+
+This repository serves as a space to consolidate my knowledge and practical experience as I grow in the field of cybersecurity.
+
