@@ -1,7 +1,7 @@
-# Final Project: Catflix Enterprise Network – System Security Deployment
+# Final Project: Enterprise Network – System Security Deployment
 
 ## Objective
-To design, configure, and secure a simulated enterprise network for a fictional client, “Catflix,” as part of a capstone project in System Security. The project includes setting up infrastructure, applying system hardening, managing domains, and implementing technical controls aligned with CIS Critical Security Controls - all within a closed virtual lab environment.
+To design, configure, and secure a simulated enterprise network as part of a capstone project in System Security. The project involved setting up core infrastructure, applying system hardening techniques, managing domains, and implementing technical controls aligned with CIS Critical Security Controls - all within a closed virtual lab environment.
 
 <div align="center">
 
@@ -77,8 +77,8 @@ To design, configure, and secure a simulated enterprise network for a fictional 
 
 ### Web Server Setup & Hardening
 - Installed MediaWiki with:
-  - `sysadmin` as administrator
-  - Custom logo and title: **Catflix Admin Wiki**
+  - `sysadmin` as the administrator account
+  - Custom logo and title reflecting the simulated internal wiki
 - Performed Linux hardening:
   - Disabled unused services
   - Configured strict file/folder permissions
