@@ -24,7 +24,7 @@ This project simulates a real-world breach investigation for a fictional organiz
 
 ## Deliverables
 - [Case Background](./scenario/case-background.md)
-- [Final Report (PDF)](./report/Final_Project.pdf)
+- [Final Report (PDF)](./report/Analytics_Final_Project_Report.pdf)
 - [Splunk Queries](./queries/splunk-queries.md)
 
 ## 👥 Project Context
