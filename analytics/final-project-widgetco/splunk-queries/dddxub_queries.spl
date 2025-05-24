@@ -1,0 +1,31 @@
+index=final_project source="mfa.csv" Username="DDDXUB"
+| eval event_time = strptime(Date." ".Time, "%m/%d/%y %I:%M:%S %p")
+| eval Date_Time = strftime(event_time, "%Y-%m-%d %H:%M:%S")
+| sort event_time
+| table Date_Time, source, Username, Application, Result, "IP Address"
+
+index=final_project source="vpn.csv" Username="DDDXUB"
+| eval Date_Time = strftime(strptime(Date." ".Time, "%m/%d/%y %I:%M:%S %p"), "%Y-%m-%d %H:%M:%S")
+| sort Date_Time
+| table Date_Time, Username, Source_IP, Result
+
+index=final_project source="passwordvault.csv" Username="DDDXUB"
+| eval Date_Time = strftime(strptime(Date." ".Time, "%m/%d/%y %I:%M:%S %p"), "%Y-%m-%d %H:%M:%S")
+| table Date_Time, Date, Time, Src_IP, Username, Authentication
+| sort Date_Time
+
+index=final_project source="ticketing.csv" Username="DDDXUB"
+| eval event_time = strptime(Date." ".Time, "%m/%d/%y %I:%M:%S %p")
+| eval Date_Time = strftime(event_time, "%Y-%m-%d %H:%M:%S")
+| sort event_time
+| table Date_Time, Username, Src_IP, Result
+
+index=final_project source="widgetapp.csv" User="DDDXUB"
+| eval Date_Time = strftime(strptime(Date." ".Time, "%m/%d/%y %I:%M:%S %p"), "%Y-%m-%d %H:%M:%S")
+| table Date_Time, IP_Add, User, Auth
+| sort Date_Time
+
+index=final_project source="itadmin.csv" Username="DDDXUB"
+| eval Date_Time = strftime(strptime(Date." ".Time, "%m/%d/%y %I:%M:%S %p"), "%Y-%m-%d %H:%M:%S")
+| table Date_Time, IP, Username, "Login Status"
+| sort Date_Time
