@@ -1,0 +1,42 @@
+Project Hints - IOC.csv file
+lookup
+
+
+EXAMPLE QUERRIES
+------- --------
+
+index="namelookup" | lookup NameLookupValues.csv ID OUTPUTNEW Department Office | stats list(Name) by Office
+
+
+Visualization
+-------------
+
+index="namelookup" | lookup NameLookupValues.csv ID OUTPUTNEW Department Office | stats count(Name) by Department
+
+index="namelookup" | lookup NameLookupValues.csv ID OUTPUTNEW Department Office | stats count(Name) by Office Department
+
+
+iplocation
+----------
+
+index="sample_network" | iplocation Destination_IP | stats count by Country | sort -Country
+
+
+timechart
+---------
+
+index="sample_network" | timechart span=1d count by ProtocolName
+
+index="sample_network" | iplocation Source_IP | timechart count by Country
+
+index="sample_network" | iplocation Source_IP | timechart useother=f usenull=f count by Country
+
+
+geostats
+--------
+
+index="sample_network" | iplocation Source_IP | geostats count by Country
+
+index="sample_network" | iplocation Source_IP | geostats count by City
+
+index="sample_network" Destination_Port!=0 | iplocation Source_IP | stats count by Destination_Port | sort 20 - count
