@@ -1,0 +1,6 @@
+index=final_project source="dns.csv"
+| eval dns_lower=lower('DNS Hit')
+| lookup IOC_lookup_URL_file.csv value AS dns_lower OUTPUT value AS Matched_ioc
+| where isnotnull(Matched_ioc)
+| sort "Machine Assignment", "DNS Hit"
+| table "Machine Assignment", Date, "DNS Hit"
