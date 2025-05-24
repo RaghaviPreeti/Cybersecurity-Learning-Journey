@@ -22,7 +22,7 @@ Analyze available log data to:
 ## Investigation Goal
 Use Splunk to ingest, query, and correlate logs across all sources, build a complete picture of the breach, and identify the attackers' movement across systems.
 
-⚠️ This case scenario is fictional and was provided as part of an academic assignment in a cybersecurity analytics course.
+⚠️ _This case scenario is fictional and was provided as part of an academic assignment in a cybersecurity analytics course._
 
 <div align="center">
 
