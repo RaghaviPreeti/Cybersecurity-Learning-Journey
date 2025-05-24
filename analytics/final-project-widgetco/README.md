@@ -23,6 +23,7 @@ This project simulates a real-world breach investigation for a fictional organiz
 - Evidence of attacker persistence and use of evasive IP infrastructure
 
 ## Deliverables
+- [Case Background](./scenario/case-background.md)
 - [Final Report (PDF)](./report/Final_Project.pdf)
 - [Splunk Queries](./queries/splunk-queries.md)
 
