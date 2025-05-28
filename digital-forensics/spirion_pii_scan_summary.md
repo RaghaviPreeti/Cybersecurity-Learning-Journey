@@ -19,7 +19,7 @@ GUI-based software designed to search for PII like:
   - Driver’s Licenses
   - Dates of Birth
 
-  <div align="center">
+<div align="center">
 
 ----- [ Section Break ] -----
 
