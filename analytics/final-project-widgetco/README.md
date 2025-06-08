@@ -23,9 +23,9 @@ This project simulates a real-world breach investigation for a fictional organiz
 - Evidence of attacker persistence and use of evasive IP infrastructure
 
 ## Deliverables
-- [Case Background](./scenario/case-background.md)
-- [Final Report (PDF)](./report/Analytics_Final_Project_Report.pdf)
-- [Splunk Queries](./queries/splunk-queries.md)
+- [Case Background](./scenario/case_background.md)
+- [Final Report (PDF)](./report/report_summary.md)
+- [Splunk Queries](./splunk-queries.md)
 
 ## 👥 Project Context
 This project was completed as part of a team effort for the Cybersecurity Analytics course.  
