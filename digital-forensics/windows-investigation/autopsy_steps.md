@@ -2,7 +2,11 @@
 
 This document outlines the step-by-step process used to analyze a Windows forensic image using Autopsy.
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ## 🔍 Step-by-Step Forensic Procedure
 
@@ -14,12 +18,6 @@ This document outlines the step-by-step process used to analyze a Windows forens
 autopsy
 ```
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ### 2. Create a New Case
 
 - Click on **“Create New Case”**.
@@ -28,24 +26,12 @@ autopsy
   - **Base Directory:** Choose a folder to store your case data
   - Add any notes you’d like for the investigation.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ### 3. Add Data Source
 
 - Select **“Add Data Source”**.
 - Choose **Disk Image or VM File**.
 - Browse to select the `.E01` image file.
 - Ensure **read-only mode** is selected to preserve evidence integrity.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ### 4. Configure Ingest Modules
 
@@ -62,12 +48,6 @@ Check the following modules before starting the ingest process:
 
 Click **“Next”** or **“Finish”** to begin analysis.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ### 5. Analyze Artifacts
 
 - Use the left-side tree structure to navigate key directories.
@@ -79,12 +59,6 @@ Click **“Next”** or **“Finish”** to begin analysis.
   - Any signs of non-business applications (e.g., Steam, Discord)
   - Browser history and search artifacts
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ### 6. Document Key Evidence
 
 For each piece of evidence:
@@ -92,12 +66,6 @@ For each piece of evidence:
 - Note the **file path**, **timestamps**, and **relevance**.
 - Take screenshots (internal use only) to support your findings.
 - Build a **timeline of events** using timestamps from emails and files.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ### 7. Close the Case
 
