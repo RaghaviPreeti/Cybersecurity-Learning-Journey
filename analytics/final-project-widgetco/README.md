@@ -24,8 +24,8 @@ This project simulates a real-world breach investigation for a fictional organiz
 
 ## Deliverables
 - [Case Background](./scenario/case_background.md)
-- [Final Report (PDF)](./report/report_summary.md)
-- [Splunk Queries](./splunk-queries.md)
+- [Report](./report/report_summary.md)
+- [Splunk Queries](./splunk-queries)
 
 ## 👥 Project Context
 This project was completed as part of a team effort for the Cybersecurity Analytics course.  
