@@ -24,7 +24,7 @@ This document summarizes and explains the `.spl` files used to extract and corre
 
 </div>
 
-## 📁 bdvrls_queries.spl
+## 📁 bdrvls_queries.spl
 
 ### 🎯 Focus:
 Investigates the activity of user `BDRVLS` across:
