@@ -32,7 +32,7 @@ Welcome to my learning journey! This repository serves as a record of my progres
   - Windows Breach Investigation – Email & File Tracing
 - Report Writing (Technical & Non-Technical Audiences)
 
-### 3. [Cybersecurity Analytics](.analytics)
+### 3. [Cybersecurity Analytics](./analytics/final-project-widgetco/)
 Focused on applying data analysis to detect suspicious activity, reconstruct timelines, and investigate breaches.
 
 Topics covered:
