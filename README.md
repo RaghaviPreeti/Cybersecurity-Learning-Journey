@@ -23,13 +23,26 @@ Welcome to my learning journey! This repository serves as a record of my progres
 ### 2. [Digital Forensics](./digital-forensics)
 
 **Topics covered:**
-- Acquisition Methods  
-- Image Formats  
-- Tools: Spirion, Guymager  
+- Disk Imaging (dc3dd, Guymager)
+- Hash Verification & Evidence Integrity
+- PII Scanning with Spirion
+- File System and Metadata Analysis
+- Case Investigations:
+  - Autopsy Analysis – Hidden/Deleted Files Case
+  - Windows Breach Investigation – Email & File Tracing
+- Report Writing (Technical & Non-Technical Audiences)
 
-Includes case studies, analysis, and forensic methodologies.
+### 3. [Cybersecurity Analytics](.analytics/final-project-widgetco)
+Focused on applying data analysis to detect suspicious activity, reconstruct timelines, and investigate breaches.
 
-### 3. [TryHackMe](./tryhackme)
+Topics covered:
+- Splunk Queries (MFA, VPN, DNS, Password Vault, Internal Apps)
+- User-Centric Activity Tracing (BDRVLS & DDDXUB)
+- IOC Matching with DNS Lookups
+- Timeline Reconstruction from Multi-Source Logs
+- Final Project: WidgetCo Breach Analysis
+
+### 4. [TryHackMe](./tryhackme)
 
 Focused on structured learning through TryHackMe labs and walkthroughs.
 
