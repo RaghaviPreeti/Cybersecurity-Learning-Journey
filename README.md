@@ -18,7 +18,7 @@ Welcome to my learning journey! This repository serves as a record of my progres
 - Hosting a Web Server (MediaWiki) and Hardening It
 - Firewall Rules – pfSense
 - Active Directory and Implementing Controls (Referring to CIS Controls).
-- [Final Project](./system-security/final-catflix-project)
+- [Final Project](./system-security/final-project)
 
 ### 2. [Digital Forensics](./digital-forensics)
 
