@@ -97,7 +97,11 @@ Hardened system configurations to secure critical servers and applications.
 - Limited database access points to trusted systems.  
 - Protected Apache configs from tampering.
 
----
+<div align="center">
+
+----- [ Section Break ] -----
+
+</div>
 
 ### CIS Control 14: Controlled Access Based on the Need to Know
 
