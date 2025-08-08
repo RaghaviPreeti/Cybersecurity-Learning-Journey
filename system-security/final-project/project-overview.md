@@ -67,8 +67,6 @@ To design, configure, and secure a simulated enterprise network as part of a cap
   - AdminNet → ServerNet: unrestricted internal traffic
   - AdminNet/ServerNet: outbound DNS, HTTP, HTTPS, and ping only
 
-📸 See `firewall-screenshots/` for pfSense rule documentation
-
 ### Malware Removal
 - Used Wireshark on Sin10Client to identify C2 IP traffic
 - Removed malware, verified no persistence after reboot
@@ -104,8 +102,6 @@ To design, configure, and secure a simulated enterprise network as part of a cap
    - Created role-based user accounts (`sysadmin`, `ADadmin`)
    - Used security group `SecDev` for permission management
 
-📸 See `controls-screenshots/` for configuration
-
 <div align="center">
 
 ----- [ Section Break ] -----
@@ -117,17 +113,6 @@ To design, configure, and secure a simulated enterprise network as part of a cap
 - Verified firewall rules using internal/external test clients
 - Successfully joined Sin10Client to domain and applied GPOs
 - MediaWiki homepage accessible externally, all other services internally restricted
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
-## Appendices
-- **Appendix A:** Network Topology Diagram  
-- **Appendix B:** pfSense Firewall Rules (All Interfaces)  
-- **Appendix C:** CIS Controls Implementation Proof
 
 <div align="center">
 
