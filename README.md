@@ -42,10 +42,6 @@ Topics covered:
 - Timeline Reconstruction from Multi-Source Logs
 - Final Project: WidgetCo Breach Analysis
 
-### 4. [TryHackMe](./tryhackme)
-
-Focused on structured learning through TryHackMe labs and walkthroughs.
-
 <div align="center">
 
 ----- [ Section Break ] -----
