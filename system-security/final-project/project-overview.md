@@ -27,9 +27,9 @@ To design, configure, and secure a simulated enterprise network as part of a cap
 ## Simulated Network Architecture
 
 - **pfSenseRouter**  
-  - WAN: `192.168.254.X/24`  
-  - AdminNet: `10.42.X.0/24`  
-  - ServerNet: `10.43.X.0/24`  
+  - WAN: `192.168.X.X/24`  
+  - AdminNet: `10.42.X.X/24`  
+  - ServerNet: `10.43.X.X/24`  
 
 - **ADServer**  
   - Deployed as a Windows Domain Controller (`catflixXX.local`)  
