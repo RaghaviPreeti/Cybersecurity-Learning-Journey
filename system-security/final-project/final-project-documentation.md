@@ -47,11 +47,11 @@ These steps addressed immediate security concerns while creating a resilient fra
 Active scanning was conducted on AdminNet, ServerNet, and the External Interface to build an inventory of connected devices, identify services, and detect unauthorized access points.
 
 #### Observations
-**AdminNet (10.42.X.0/24)**  
+**AdminNet (10.42.X.X/24)**  
 - **AD Server** – Windows Server with LDAP, Kerberos, and DNS services.  
 - **Workstation** – Windows OS with Microsoft RPC, NetBIOS, and SMB services.
 
-**ServerNet (10.43.X.0/24)**  
+**ServerNet (10.43.X.X/24)**  
 - **Database Server** – MariaDB with SSH and MySQL ports open.  
 - **Web Server** – Ubuntu Linux with Apache HTTP and SSH.  
 - **Client Machine** – Ubuntu Linux with no open ports (hardened).
@@ -66,12 +66,12 @@ Active scanning was conducted on AdminNet, ServerNet, and the External Interface
 
 #### Comprehensive Device Inventory
 | IP Address     | Network     | Device Type      | OS / Service Info               | Open Ports      |
-|----------------|-------------|------------------|----------------------------------|-----------------|
-| 10.42.X.151    | AdminNet    | Windows Server   | LDAP, Kerberos, DNS              | 53, 88, 135, 389, 445 |
-| 10.42.X.152    | AdminNet    | Workstation      | RPC, NetBIOS, SMB                | 135, 139, 445   |
-| 10.43.X.101    | ServerNet   | Database Server  | MariaDB, SSH                     | 22, 3306        |
-| 10.43.X.102    | ServerNet   | Web Server       | Apache HTTP, SSH                 | 22, 80          |
-| 10.43.X.5      | ServerNet   | Client Machine   | No services exposed              | None            |
+|----------------|-------------|------------------|--------------------------------- |-----------------|
+| 10.42.X.X      | AdminNet    | Windows Server   | LDAP, Kerberos, DNS              | 53, 88, 135, 389, 445 |
+| 10.42.X.X      | AdminNet    | Workstation      | RPC, NetBIOS, SMB                | 135, 139, 445   |
+| 10.43.X.X      | ServerNet   | Database Server  | MariaDB, SSH                     | 22, 3306        |
+| 10.43.X.X      | ServerNet   | Web Server       | Apache HTTP, SSH                 | 22, 80          |
+| 10.43.X.X      | ServerNet   | Client Machine   | No services exposed              | None            |
 | 192.168.XXX.XX | External    | Router/Gateway   | DNS, HTTP, HTTPS                 | 53, 80, 443     |
 
 <div align="center">
