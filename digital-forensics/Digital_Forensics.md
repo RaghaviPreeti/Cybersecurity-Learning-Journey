@@ -4,12 +4,6 @@ This section showcases my hands-on work in digital forensics, completed as part 
 
 All cases are fictional and created for academic learning and skills development.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## 🔍 What's Included
 
 ### 📁 `disk-imaging-lab/`
@@ -23,12 +17,6 @@ A case analysis using Autopsy to uncover hidden and deleted media files. Contain
 
 ### 📁 `windows-investigation/`
 A full forensic investigation of a Windows machine related to a fictional data breach case. Involves email tracing, file system analysis, and policy violation detection using Autopsy.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## 🛠️ Key Forensics Skills Applied
 
