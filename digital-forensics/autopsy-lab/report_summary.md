@@ -2,12 +2,6 @@
 
 This report summarizes a forensic investigation performed for Bob’s Art Studio, a fictional photography company. The purpose of the investigation was to recover missing bearcat photos and deleted flower images from a disk image provided by the client.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## Key Findings
 
 - Eleven bearcat images were successfully recovered from the disk.
@@ -17,12 +11,6 @@ This report summarizes a forensic investigation performed for Bob’s Art Studio
   - Renamed to misleading formats (e.g., `.mp4`, `.hidden`)
   - Stored within compressed archives or document thumbnails
 - The disk image and recovered files were validated using MD5 hash values to ensure data integrity.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Conclusion
 
