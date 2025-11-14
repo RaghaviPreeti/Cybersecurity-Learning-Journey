@@ -2,12 +2,6 @@
 
 This document outlines the step-by-step process used to analyze a Windows forensic image using Autopsy.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## 🔍 Step-by-Step Forensic Procedure
 
 ### 1. Launch Autopsy
