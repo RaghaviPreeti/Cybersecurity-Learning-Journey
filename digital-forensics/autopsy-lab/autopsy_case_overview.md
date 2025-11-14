@@ -2,32 +2,14 @@
 
 This document outlines a forensic investigation conducted using Autopsy as part of a graduate-level digital forensics course.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 > **Disclaimer**  
 > This case study is entirely fictional. The subject, "Bob’s Art Studio", and all associated content are simulated for educational purposes. No real client data or private materials are included.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Objective
 
 - Recover intentionally hidden bearcat images and deleted flower photographs from a forensic disk image.
 - Validate the forensic acquisition using MD5 hashing.
 - Prepare documentation suitable for both technical and non-technical audiences.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Summary
 
