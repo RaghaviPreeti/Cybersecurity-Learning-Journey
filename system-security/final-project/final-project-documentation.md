@@ -3,12 +3,6 @@
 **Author:** Raghavi  
 **Date:** November 29, 2024  
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 **Note:** All IP addresses, domain names, and usernames in this report are from a simulated lab environment.  
 
 ## Table of Contents
@@ -32,12 +26,6 @@ Key measures included:
 - Enforcing User Account Control (UAC) prompts for administrative changes.
 
 These steps addressed immediate security concerns while creating a resilient framework against evolving threats.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Technical Findings
 
@@ -74,12 +62,6 @@ Active scanning was conducted on AdminNet, ServerNet, and the External Interface
 | 10.43.X.X      | ServerNet   | Client Machine   | No services exposed              | None            |
 | 192.168.XXX.XX | External    | Router/Gateway   | DNS, HTTP, HTTPS                 | 53, 80, 443     |
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ### CIS Control 04: Secure Configuration of Enterprise Assets and Software
 
 **Summary:**  
@@ -97,12 +79,6 @@ Hardened system configurations to secure critical servers and applications.
 - Limited database access points to trusted systems.  
 - Protected Apache configs from tampering.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ### CIS Control 14: Controlled Access Based on the Need to Know
 
 **Summary:**  
@@ -117,23 +93,11 @@ Restricted access to sensitive configuration files on the web and database serve
 - Reduced chance of accidental misconfigurations.  
 - Enforced role-based access.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## Works Cited
 1. CIS Security, “CIS Controls – Version 8.” Available: https://is.gd/CISSecurity  
 2. Microsoft, “Audit Policy Recommendations.” Available: https://shorturl.at/Bqu0E  
 3. Microsoft, “User Account Control (UAC).” Available: https://shorturl.at/dTJj4  
 4. GeeksforGeeks, “Access Control Lists (ACL) in Linux.” Available: https://www.geeksforgeeks.org/access-control-listsacl-linux/
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Appendices
 
