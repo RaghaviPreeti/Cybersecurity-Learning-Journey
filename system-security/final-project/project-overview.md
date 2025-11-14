@@ -3,12 +3,6 @@
 ## Objective
 To design, configure, and secure a simulated enterprise network as part of a capstone project in System Security. The project involved setting up core infrastructure, applying system hardening techniques, managing domains, and implementing technical controls aligned with CIS Critical Security Controls - all within a closed virtual lab environment.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## Technologies Used
 - pfSense Firewall (Simulated)
 - Windows Server 2022 (Active Directory)
@@ -17,12 +11,6 @@ To design, configure, and secure a simulated enterprise network as part of a cap
 - MediaWiki (Web Application)
 - VMware vSphere
 - CIS Critical Security Controls (V8)
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Simulated Network Architecture
 
@@ -51,12 +39,6 @@ To design, configure, and secure a simulated enterprise network as part of a cap
 
 ⚠️ _All network components and IPs were configured and tested inside a closed virtual lab environment._
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## Key Security Configurations
 
 ### Firewall Hardening (pfSense)
@@ -82,12 +64,6 @@ To design, configure, and secure a simulated enterprise network as part of a cap
   - Configured strict file/folder permissions
   - Applied Apache access controls and firewall restrictions
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## CIS Critical Security Controls Implemented
 
 1. **CIS Control 1 & 2 – Inventory of Hardware/Software**
@@ -102,23 +78,11 @@ To design, configure, and secure a simulated enterprise network as part of a cap
    - Created role-based user accounts (`sysadmin`, `ADadmin`)
    - Used security group `SecDev` for permission management
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## Validation & Testing
 - Confirmed NAT, DNS, and DHCP via command-line tools
 - Verified firewall rules using internal/external test clients
 - Successfully joined Sin10Client to domain and applied GPOs
 - MediaWiki homepage accessible externally, all other services internally restricted
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Outcome
 Successfully deployed a multi-layered enterprise network simulation and demonstrated the ability to secure it using industry best practices. Covered everything from domain management and malware response to firewall rule creation and CIS-aligned control implementation.
