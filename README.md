@@ -2,12 +2,6 @@
 
 Welcome to my learning journey! This repository serves as a record of my progress, covering various topics, hands-on exercises, and insights gained along the way.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## 📚 Paths
 
 ### 1. [System Security](./system-security)
@@ -42,23 +36,11 @@ Topics covered:
 - Timeline Reconstruction from Multi-Source Logs
 - Final Project: WidgetCo Breach Analysis
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## How I Document My Learning
 
 - **Notes:** Summarizing key takeaways, insights, and concepts learned.
 - **Hands-On Work:** Documenting practical applications, configurations, and tools used.
 - **Challenges & Solutions:** Recording issues faced and how I resolved them.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 This repository serves as a space to consolidate my knowledge and practical experience as I grow in the field of cybersecurity.
 
