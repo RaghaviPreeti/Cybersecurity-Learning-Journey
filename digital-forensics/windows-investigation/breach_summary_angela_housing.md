@@ -4,12 +4,6 @@
 
 An internal forensic investigation was conducted after sensitive employee information was discovered on a malicious website. Analysis confirmed that the breach was a result of deceptive phishing communication and improper data handling by a company employee.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## Key Timeline Highlights
 
 - March 20: A spreadsheet with PII was created and edited.
@@ -18,23 +12,11 @@ An internal forensic investigation was conducted after sensitive employee inform
 - March 21, 4:07 PM: The employee forwarded the sensitive file to their personal Gmail.
 - March 21, 4:31 PM: A confirmation was sent to the impersonator.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## Notable Findings
 
 - Evidence of third-party tools such as Steam and Discord, indicating non-compliant software usage.
 - A Python script (`stego.py`) was discovered, suggesting experimentation with steganography.
 - Web searches and HTML help files indicate user activity after the breach, possibly attempting to audit or modify the system.
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Recommendations
 
