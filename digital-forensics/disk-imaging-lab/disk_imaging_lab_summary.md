@@ -3,21 +3,9 @@
 ## Objective
 This lab focused on using both GUI and command-line tools to perform forensic imaging, hash validation, and integrity verification. Tools included **Guymager** and **dc3dd**, simulating real-world procedures for acquiring digital evidence from storage media.
 
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
-
 ## Tools Used
 - **Guymager** – GUI-based imaging tool supporting raw (dd) and Expert Witness Format (EWF)
 - **dc3dd** – CLI-based forensic imaging tool with integrated hashing and logging
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Key Activities
 
@@ -46,12 +34,6 @@ This lab focused on using both GUI and command-line tools to perform forensic im
 - Role of hashing in ensuring evidence integrity
 - Importance of not mounting drives during imaging
 - Comparison of GUI and CLI workflows in forensic tasks
-
-<div align="center">
-
------ [ Section Break ] -----
-
-</div>
 
 ## Conclusion
 This lab strengthened core digital forensics skills by combining GUI and CLI imaging tools, reinforcing the importance of careful acquisition and validation in evidence handling.
